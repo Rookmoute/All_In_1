@@ -1,8 +1,8 @@
 -- /WIDGETS/All_IN_1/main.lua
 -- Compatible avec EdgeTX 2.11.x sur FRSKY Horus X10S (480x272)
 -- Toutes les fonctions sont expliquées dans le script
--- Script autonome pour hélicoptère
--- Créé par Dugenou en collaboration avec Grok by xAI, claude.ia et perplexity.ai
+-- Script autonome pour hélicoptère avec FBL
+-- Créé par Rookmoute en collaboration avec Grok by xAI, claude.ia et perplexity.ai
 -- Les couleurs des jauges (adaptées pour un daltonien) sont bleu, orange, rouge, avec des seuils, toutes configurables
 -- Mode sélectionné via GV7 (0: segments, 1: arcs). Utilisez le tool script pour changer.
 
@@ -286,4 +286,5 @@ return {
   update = update,
   refresh = refresh,
   background = background
+
 }
